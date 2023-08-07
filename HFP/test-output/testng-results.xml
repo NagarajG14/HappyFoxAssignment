@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="16" total="27" passed="11">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verification failure : expected [You have logged out successfully] but found [You have logged out successfully.]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Aug_07_11_11_44_IST_2023.jpg><img src=Mon_Aug_07_11_11_44_IST_2023.jpg height=400 width=400></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="677688" started-at="2023-08-07T11:00:28 IST" finished-at="2023-08-07T11:11:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="677688" started-at="2023-08-07T11:00:28 IST" finished-at="2023-08-07T11:11:45 IST">
+      <class name="testcases.logoutTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.logoutTest@4d339552]" name="setup" is-config="true" duration-ms="9682" started-at="2023-08-07T11:10:39 IST" finished-at="2023-08-07T11:10:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.logoutTest@4d339552]" name="logout" duration-ms="56293" started-at="2023-08-07T11:10:48 IST" finished-at="2023-08-07T11:11:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verification failure : expected [You have logged out successfully] but found [You have logged out successfully.]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Aug_07_11_11_44_IST_2023.jpg><img src=Mon_Aug_07_11_11_44_IST_2023.jpg height=400 width=400></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.logoutTest@4d339552]" name="tearDown" is-config="true" duration-ms="761" started-at="2023-08-07T11:11:45 IST" finished-at="2023-08-07T11:11:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.logoutTest -->
+      <class name="testcases.createNewTicket">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.createNewTicket@61d47554]" name="setup" is-config="true" duration-ms="8668" started-at="2023-08-07T11:05:37 IST" finished-at="2023-08-07T11:05:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newTicket()[pri:0, instance:testcases.createNewTicket@61d47554]" name="newTicket" duration-ms="16547" started-at="2023-08-07T11:05:46 IST" finished-at="2023-08-07T11:06:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.createNewTicket@61d47554]" name="tearDown" is-config="true" duration-ms="693" started-at="2023-08-07T11:06:02 IST" finished-at="2023-08-07T11:06:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.createNewTicket -->
+      <class name="testcases.MakeDefaultPriorityTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.MakeDefaultPriorityTest@b7f23d9]" name="setup" is-config="true" duration-ms="22601" started-at="2023-08-07T11:04:24 IST" finished-at="2023-08-07T11:04:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DefaultForStatus()[pri:0, instance:testcases.MakeDefaultPriorityTest@b7f23d9]" name="DefaultForStatus" duration-ms="50113" started-at="2023-08-07T11:04:46 IST" finished-at="2023-08-07T11:05:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultForStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.MakeDefaultPriorityTest@b7f23d9]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-08-07T11:05:36 IST" finished-at="2023-08-07T11:05:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.MakeDefaultPriorityTest -->
+      <class name="testcases.CreatePriorityTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.CreatePriorityTest@525b461a]" name="setup" is-config="true" duration-ms="11305" started-at="2023-08-07T11:02:19 IST" finished-at="2023-08-07T11:02:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPriority()[pri:0, instance:testcases.CreatePriorityTest@525b461a]" name="createPriority" duration-ms="43047" started-at="2023-08-07T11:02:30 IST" finished-at="2023-08-07T11:03:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPriority -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CreatePriorityTest@525b461a]" name="tearDown" is-config="true" duration-ms="721" started-at="2023-08-07T11:03:13 IST" finished-at="2023-08-07T11:03:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CreatePriorityTest -->
+      <class name="testcases.DeleteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.DeleteTest@3f200884]" name="setup" is-config="true" duration-ms="18169" started-at="2023-08-07T11:07:46 IST" finished-at="2023-08-07T11:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DeleteStatus()[pri:0, instance:testcases.DeleteTest@3f200884]" name="DeleteStatus" duration-ms="69842" started-at="2023-08-07T11:08:05 IST" finished-at="2023-08-07T11:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.DeleteTest@3f200884]" name="tearDown" is-config="true" duration-ms="764" started-at="2023-08-07T11:09:14 IST" finished-at="2023-08-07T11:09:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.DeleteTest@3f200884]" name="setup" is-config="true" duration-ms="16629" started-at="2023-08-07T11:09:15 IST" finished-at="2023-08-07T11:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DeletePriority()[pri:1, instance:testcases.DeleteTest@3f200884]" name="DeletePriority" duration-ms="65880" started-at="2023-08-07T11:09:32 IST" finished-at="2023-08-07T11:10:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePriority -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.DeleteTest@3f200884]" name="tearDown" is-config="true" duration-ms="761" started-at="2023-08-07T11:10:38 IST" finished-at="2023-08-07T11:10:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DeleteTest -->
+      <class name="testcases.replyToTicket">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.replyToTicket@69b794e2]" name="setup" is-config="true" duration-ms="7636" started-at="2023-08-07T11:06:03 IST" finished-at="2023-08-07T11:06:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="reply()[pri:0, instance:testcases.replyToTicket@69b794e2]" name="reply" duration-ms="95066" started-at="2023-08-07T11:06:11 IST" finished-at="2023-08-07T11:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.replyToTicket@69b794e2]" name="tearDown" is-config="true" duration-ms="789" started-at="2023-08-07T11:07:46 IST" finished-at="2023-08-07T11:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.replyToTicket -->
+      <class name="testcases.CreateStatusTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.CreateStatusTest@7ff2a664]" name="setup" is-config="true" duration-ms="12207" started-at="2023-08-07T11:01:24 IST" finished-at="2023-08-07T11:01:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPriority()[pri:0, instance:testcases.CreateStatusTest@7ff2a664]" name="createPriority" duration-ms="42410" started-at="2023-08-07T11:01:36 IST" finished-at="2023-08-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPriority -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CreateStatusTest@7ff2a664]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-08-07T11:02:18 IST" finished-at="2023-08-07T11:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.CreateStatusTest -->
+      <class name="testcases.MakeDeafultStatusTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.MakeDeafultStatusTest@58c1c010]" name="setup" is-config="true" duration-ms="18862" started-at="2023-08-07T11:03:14 IST" finished-at="2023-08-07T11:03:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DefaultForStatus()[pri:0, instance:testcases.MakeDeafultStatusTest@58c1c010]" name="DefaultForStatus" duration-ms="50007" started-at="2023-08-07T11:03:33 IST" finished-at="2023-08-07T11:04:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultForStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.MakeDeafultStatusTest@58c1c010]" name="tearDown" is-config="true" duration-ms="771" started-at="2023-08-07T11:04:23 IST" finished-at="2023-08-07T11:04:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.MakeDeafultStatusTest -->
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:testcases.LoginTest@6a472554]" name="loadConfig" is-config="true" duration-ms="9" started-at="2023-08-07T11:00:28 IST" finished-at="2023-08-07T11:00:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@6a472554]" name="setup" is-config="true" duration-ms="10801" started-at="2023-08-07T11:00:28 IST" finished-at="2023-08-07T11:00:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogin()[pri:0, instance:testcases.LoginTest@6a472554]" name="validatelogin" duration-ms="241" started-at="2023-08-07T11:00:38 IST" finished-at="2023-08-07T11:00:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@6a472554]" name="tearDown" is-config="true" duration-ms="702" started-at="2023-08-07T11:00:39 IST" finished-at="2023-08-07T11:00:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@6a472554]" name="setup" is-config="true" duration-ms="7746" started-at="2023-08-07T11:00:39 IST" finished-at="2023-08-07T11:00:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginfirst()[pri:1, instance:testcases.LoginTest@6a472554]" name="loginfirst" duration-ms="35768" started-at="2023-08-07T11:00:47 IST" finished-at="2023-08-07T11:01:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfirst -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@6a472554]" name="tearDown" is-config="true" duration-ms="710" started-at="2023-08-07T11:01:23 IST" finished-at="2023-08-07T11:01:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.LoginTest@6a472554]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-08-07T11:11:46 IST" finished-at="2023-08-07T11:11:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
